@@ -1,0 +1,12 @@
+# -*- mode: sh -*-
+
+# run-help-gem
+# author: Seong Yong-ju <sei40kr@gmail.com>
+
+local -a args=( "${@:#-*}" )
+
+if [[ "${#args}" == 0 ]]; then
+    gem help | "${=PAGER:-more}"
+else
+    gem help "${args[1]}" | "${=PAGER:-more}"
+fi

@@ -1,0 +1,12 @@
+# -*- mode: sh -*-
+
+# run-help-npm
+# author: Seong Yong-ju <sei40kr@gmail.com>
+
+local -a args=( "${@:#-*}" )
+
+if [[ "${#args}" == 0 ]]; then
+    man npm
+else
+    man "npm-${args[1]}"
+fi

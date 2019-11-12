@@ -1,0 +1,12 @@
+# -*- mode: sh -*-
+
+# run-help-go
+# author: Seong Yong-ju <sei40kr@gmail.com>
+
+local -a args=( "${@:#-*}" )
+
+if [[ "${#args}" == 0 ]]; then
+    go help | "${=PAGER:-more}"
+else
+    go help "${args[1]}" | "${=PAGER:-more}"
+fi

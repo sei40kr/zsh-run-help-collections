@@ -1,0 +1,14 @@
+# -*- mode: sh -*-
+
+# run-help-docker
+# author: Seong Yong-ju <sei40kr@gmail.com>
+
+local -a args=( "${@:#-*}" )
+
+if [[ "${#args}" == 0 ]]; then
+    man docker
+elif [[ "${#args}" -ge 2 ]] && man -w "docker-${args[1]}-${args[2]}" 1>/dev/null 2>/dev/null; then
+    man "docker-${args[1]}-${args[2]}"
+else
+    man "docker-${args[1]}"
+fi
