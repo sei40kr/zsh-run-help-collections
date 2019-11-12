@@ -18,3 +18,7 @@ $ go get     # press M-h
 $ # this will run
 $ go help get
 ```
+
+## Supported Commands
+
+See inside of [functions](https://github.com/sei40kr/zsh-run-help-collections/tree/master/functions) directory.
