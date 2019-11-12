@@ -7,9 +7,9 @@
 zplugin light sei40kr/zsh-run-help-collections
 ```
 
-## How it works
+## How It Works
 
-```shell-session
+```
 $ docker run # press M-h
 $ # this will run
 $ run-help docker-run
