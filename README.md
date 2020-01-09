@@ -1,5 +1,7 @@
 # zsh-run-help-collections
 
+Show the help for a command that doesn't have manpages by `M-h`.
+
 ## Install
 
 ```sh
