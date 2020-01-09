@@ -1,16 +1,5 @@
 # zsh-run-help-collections
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [zsh-run-help-collections](#zsh-run-help-collections)
-    - [Install](#install)
-    - [How It Works](#how-it-works)
-    - [Supported Commands](#supported-commands)
-        - [Built-ins](#built-ins)
-
-<!-- markdown-toc end -->
-
 ## Install
 
 ```sh
