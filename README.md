@@ -6,7 +6,7 @@ Show the help for a command that doesn't have manpages by `M-h`.
 
 ```sh
 # Load zsh-run-help-collections
-zplugin light sei40kr/zsh-run-help-collections
+zinit light sei40kr/zsh-run-help-collections
 ```
 
 ## How It Works
@@ -33,6 +33,6 @@ See [here](https://github.com/zsh-users/zsh/tree/master/Functions/Misc).
 To use, just autoload them.
 
 ```sh
-zplugin light sei40kr/zsh-run-help-collections
+zinit light sei40kr/zsh-run-help-collections
 autoload -Uz run-help-git
 ```
