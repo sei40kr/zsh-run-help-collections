@@ -6,6 +6,7 @@ fpath+="${0:h}/functions"
 unalias run-help 2>/dev/null
 autoload -Uz \
          run-help \
+         run-help-aws \
          run-help-docker \
          run-help-gem \
          run-help-go \

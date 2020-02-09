@@ -1,0 +1,14 @@
+# -*- mode: sh -*-
+
+# run-help-aws
+# author: Seong Yong-ju <sei40kr@gmail.com>
+
+run-help-aws() {
+    local -a commands
+    commands=( ${@:#-*} )
+    commands=( ${commands[1,2]} )
+
+    aws ${commands[@]} help | "${=PAGER:-more}"
+}
+
+run-help-aws "$@"
